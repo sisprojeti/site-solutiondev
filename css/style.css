@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #7211ab;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -179,12 +179,12 @@ h6 {
 }
 
 #intro .intro-img {
-  width: 50%;
+  width: 28%;
   float: right;
 }
 
 #intro .intro-info {
-  width: 50%;
+  width: 72%;
   float: left;
 }
 
@@ -215,8 +215,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #7211ab;
+  border: 2px solid #7211ab;
   color: #fff;
 }
 
@@ -231,8 +231,8 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #7211ab;
+  border-color: #7211ab;
   color: #fff;
 }
 
@@ -299,7 +299,7 @@ h6 {
 }
 
 .main-nav .drop-down li {
-  min-width: 180px;
+  min-width: 110px;
   position: relative;
 }
 
@@ -312,7 +312,7 @@ h6 {
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #007bff;
+  color: #7211ab;
 }
 
 .main-nav .drop-down > a:after {
@@ -374,7 +374,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
+  color: #b529ff;
   text-decoration: none;
 }
 
@@ -420,7 +420,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #7211ab;
 }
 
 .mobile-nav-overly {
@@ -538,17 +538,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #4e0da3;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #4e0da3;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #4e0da3;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -581,6 +581,13 @@ h6 {
   font-size: 24px;
 }
 
+#about .texto-lateral h1{
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
 /* Services Section
 --------------------------------*/
 
@@ -607,7 +614,7 @@ h6 {
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 3.5px;
   top: calc(50% - 32px);
 }
 
@@ -629,7 +636,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #7211ab;
 }
 
 #services .description {
@@ -965,8 +972,8 @@ h6 {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
-  opacity: 1;
+  background: #453c9e;
+  opacity: 0.8;
   transition: 0.4s;
 }
 
@@ -999,7 +1006,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #007bff;
+  color: #7400a6;
 }
 
 #team .member .social i {
@@ -1091,7 +1098,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #007bff;
+  color: #32298b;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1185,14 +1192,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #32298b;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #453c9e;
   padding: 60px 0 30px 0;
 }
 
@@ -1223,7 +1230,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #7211ab;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1236,7 +1243,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #610696;
   color: #fff;
 }
 
