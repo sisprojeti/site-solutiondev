@@ -614,7 +614,7 @@ h6 {
 
 #services .icon {
   position: absolute;
-  left: 3.5px;
+  left: 5.5px;
   top: calc(50% - 32px);
 }
 
@@ -1120,16 +1120,20 @@ h6 {
 }
 
 #contact .info i {
-  font-size: 32px;
+  font-size: 25px;
   color: #007bff;
   float: left;
   line-height: 1;
 }
 
 #contact .info p {
-  padding: 0 0 10px 36px;
+  padding: 0 0 10px 30px;
   line-height: 28px;
   font-size: 14px;
+  margin-right: -51px; 
+}
+.texto-contact{
+  margin-left: -9px
 }
 
 #contact .form #sendmessage {
